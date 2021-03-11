@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="spe_miniproject:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/spe_miniproject_jar</output-path>
+    <root id="archive" name="spe_miniproject.jar">
+      <element id="module-output" name="spe_miniproject" />
+    </root>
+  </artifact>
+</component>
