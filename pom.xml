@@ -40,7 +40,7 @@
                         <configuration>
                             <archive>
                                 <manifest>
-                                    <mainClass>Driver</mainClass>
+                                    <mainClass>Calculator</mainClass>
                                 </manifest>
                             </archive>
                             <descriptorRefs>
