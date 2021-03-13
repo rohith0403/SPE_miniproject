@@ -13,5 +13,10 @@ class CalculatorTest {
         assertEquals(120, n);
         int n2 = c.factorial(5);
         assertNotEquals(10, n2);
+        double l = c.logarithm(16.8);
+        assertEquals(2.821, l);
+        double l2 = c.logarithm(5);
+        assertNotEquals(2.6, l2);
+
     }
 }

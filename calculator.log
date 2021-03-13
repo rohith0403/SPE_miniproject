@@ -1,0 +1,20 @@
+13/Mar/2021:16:31:49 542 [Calculator.java] [INFO] Calculator FUNCTION : SQUARE ROOT
+13/Mar/2021:16:31:49 548 [Calculator.java] [INFO] Calculator INPUT : 4.0RESULT : 2.0
+13/Mar/2021:16:31:49 552 [Calculator.java] [INFO] Calculator FUNCTION : SQUARE ROOT
+13/Mar/2021:16:31:49 553 [Calculator.java] [INFO] Calculator INPUT : 9.0RESULT : 3.0
+13/Mar/2021:16:31:49 553 [Calculator.java] [INFO] Calculator FUNCTION : FACTORIAL
+13/Mar/2021:16:31:49 554 [Calculator.java] [INFO] Calculator INPUT : 5RESULT : 120
+13/Mar/2021:16:31:49 554 [Calculator.java] [INFO] Calculator FUNCTION : FACTORIAL
+13/Mar/2021:16:31:49 554 [Calculator.java] [INFO] Calculator INPUT : 5RESULT : 120
+13/Mar/2021:16:32:16 721 [Calculator.java] [INFO] Calculator FUNCTION : SQUARE ROOT
+13/Mar/2021:16:32:16 728 [Calculator.java] [INFO] Calculator INPUT : 5.0RESULT : 2.23606797749979
+13/Mar/2021:16:33:50 257 [Calculator.java] [INFO] Calculator FUNCTION : SQUARE ROOT
+13/Mar/2021:16:33:50 270 [Calculator.java] [INFO] Calculator INPUT : 6.0RESULT : 2.449489742783178
+13/Mar/2021:16:35:11 638 [Calculator.java] [INFO] Calculator FUNCTION : SQUARE ROOT
+13/Mar/2021:16:35:11 643 [Calculator.java] [INFO] Calculator INPUT : 3.0RESULT : 1.7320508075688772
+13/Mar/2021:16:35:35 745 [Calculator.java] [INFO] Calculator FUNCTION : FACTORIAL
+13/Mar/2021:16:35:35 746 [Calculator.java] [INFO] Calculator INPUT : 6RESULT : 720
+13/Mar/2021:16:36:28 615 [Calculator.java] [INFO] Calculator FUNCTION : LOGARITHM
+13/Mar/2021:16:36:28 615 [Calculator.java] [INFO] Calculator INPUT : 16.8RESULT : 2.8213788864092133
+13/Mar/2021:20:20:09 038 [Calculator.java] [INFO] Calculator FUNCTION : LOGARITHM
+13/Mar/2021:20:20:09 038 [Calculator.java] [INFO] Calculator INPUT : 5.0RESULT : 1.6094379124341003
