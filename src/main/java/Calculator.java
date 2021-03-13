@@ -1,6 +1,10 @@
 import java.util.Scanner;
 import java.lang.Math;
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+
 public class Calculator {
+    private final static Logger logger = LogManager.getLogger();
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Choose your operation: \n");
@@ -9,15 +13,32 @@ public class Calculator {
         switch (operation) {
             case 1:
                 double x;
-                System.out.println("Enter the number(float) ");
+                System.out.println("Enter the number(double) ");
                 x = sc.nextDouble();
                 if (x < 0) throw new IllegalArgumentException("Enter a proper number");
                 System.out.println(sq_root(x));
+            case 2:
+                int n;
+                System.out.println("Enter the number(integer) ");
+                n = sc.nextInt();
+                if (n < 0) throw new IllegalArgumentException("Enter a proper number");
+                System.out.println(factorial(n));
         }
     }
 
     public static double sq_root(double x){
+        logger.info("FUNCTION : SQUARE ROOT");
         double y = Math.sqrt(x);
+        logger.info("INPUT : " + x + "RESULT : " +y);
         return y;
+    }
+    public static int factorial(int n){
+        logger.info("FUNCTION : FACTORIAL");
+        int res =1;
+        for(int i = 1; i <= n; i++){
+            res = res * i;
+        }
+        logger.info("INPUT : " + n + "RESULT : " + res);
+        return res;
     }
 }
