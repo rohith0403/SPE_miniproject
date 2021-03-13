@@ -10,7 +10,8 @@ public class Calculator {
         System.out.println("Choose your operation: \n");
         int operation = 1;
         while(operation != 0){
-            System.out.println("Type 1 for square root " + "\n" + "Type 2 for factorial" + "\n" + "Type 3 for natural logarithm" + "\n" + "Type 4 for power function");    operation = sc.nextInt();
+            System.out.println("Type 1 for square root " + "\n" + "Type 2 for factorial" + "\n" + "Type 3 for natural logarithm" + "\n" + "Type 4 for power function" + "Type 0 to exit");
+            operation = sc.nextInt();
             switch (operation) {
                 case 1:
                     double x;
@@ -33,6 +34,13 @@ public class Calculator {
                     if (l < 0) throw new IllegalArgumentException("Enter a proper number");
                     System.out.println(logarithm(l));
                     break;
+                case 4:
+                    double b; int e;
+                    System.out.println("Enter the base(double) and the exponent(integer): ");
+                    b = sc.nextDouble(); e = sc.nextInt();
+                    System.out.println(power(b, e));
+                    break;
+
             }
         }
     }
@@ -56,6 +64,12 @@ public class Calculator {
         logger.info("FUNCTION : LOGARITHM");
         double y = Math.log(x);
         logger.info("INPUT : " + x + " RESULT : " +y);
+        return y;
+    }
+    public static double power(double x, int b){
+        logger.info("FUNCTION : POWER");
+        double y = Math.pow(x, b);
+        logger.info("INPUT : BASE : " + x + " EXPONENT : " + b + " RESULT : " +y);
         return y;
     }
 }
